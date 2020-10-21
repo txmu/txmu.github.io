@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>天蝎小屋</title>
+  
+  
+  <link href="https://txmu.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://txmu.gitee.io/"/>
+  <updated>2020-10-21T11:48:27.410Z</updated>
+  <id>https://txmu.gitee.io/</id>
+  
+  <author>
+    <name>txmu(天蝎矛u)</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>庆祝建站成功</title>
+    <link href="https://txmu.gitee.io/2020/10/21/hello-world/"/>
+    <id>https://txmu.gitee.io/2020/10/21/hello-world/</id>
+    <published>2020-10-21T11:48:27.410Z</published>
+    <updated>2020-10-21T11:48:27.410Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>FAQ:</strong></p><p>Q:为什么本站的运营开始时间是2020.3.14?</p><p>A:我的第一个wikidot博客于此时建立，后来先后换了各种程序。最后锁定了hexo(2020.10.08)。这篇文章完成于2020.10.20</p><p>Q:RSS订阅怎么用?</p><p>A:<a href="https://zhuanlan.zhihu.com/p/64457116">参考链接</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;FAQ:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Q:为什么本站的运营开始时间是2020.3.14?&lt;/p&gt;
+&lt;p&gt;A:我的第一个wikidot博客于此时建立，后来先后换了各种程序。最后锁定了hexo(2020.10.08)。这篇文章完成于2020.10.20&lt;/p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
