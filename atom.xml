@@ -6,7 +6,7 @@
   <link href="https://txmu.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://txmu.gitee.io/"/>
-  <updated>2020-10-23T12:13:06.673Z</updated>
+  <updated>2020-11-03T04:44:30.007Z</updated>
   <id>https://txmu.gitee.io/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>方块地图的基本玩法（1）</title>
+    <link href="https://txmu.gitee.io/2020/11/02/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%8E%A9%E6%B3%95%EF%BC%881%EF%BC%89/"/>
+    <id>https://txmu.gitee.io/2020/11/02/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%8E%A9%E6%B3%95%EF%BC%881%EF%BC%89/</id>
+    <published>2020-11-02T11:16:15.000Z</published>
+    <updated>2020-11-03T04:44:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>我把方块地图吧的教程挑了几个，放在这里。在看下面的内容前，建议先把这些帖子看完</strong></p><p><a href="http://tieba.baidu.com/p/6761182162?share=9105&fr=share&sfc=copy&client_type=2&client_version=11.5.8.3&st=1592661418&unique=E1FF05FC85F543E302AA81143C640454">附城念:方块地图快速入门</a></p><p>摘录:“新人到达这里会很迷茫，因为他们不知道这里的玩法，附城经过总结，给出诸位三句话。<br>1，多争地，加经济。<br>2，核心在争地上，其余的规则都是附庸。<br>3，会争地，爆经济，看规矩，测自己。”</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;我把方块地图吧的教程挑了几个，放在这里。在看下面的内容前，建议先把这些帖子看完&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tieba.baidu.com/p/6761182162?share=9105&amp;fr=share&amp;sfc=copy</summary>
+      
+    
+    
+    
+    <category term="方块地图" scheme="https://txmu.gitee.io/categories/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE/"/>
+    
+    
+    <category term="方块地图" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE/"/>
+    
+    <category term="方块地图吧" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E5%90%A7/"/>
+    
+    <category term="方块地图研究所" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%A0%94%E7%A9%B6%E6%89%80/"/>
+    
+    <category term="方块地图玩法" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%8E%A9%E6%B3%95/"/>
+    
+    <category term="方块地图教程" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="百度" scheme="https://txmu.gitee.io/tags/%E7%99%BE%E5%BA%A6/"/>
+    
+    <category term="贴吧" scheme="https://txmu.gitee.io/tags/%E8%B4%B4%E5%90%A7/"/>
+    
+    <category term="qq" scheme="https://txmu.gitee.io/tags/qq/"/>
+    
+    <category term="方格地图" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E6%A0%BC%E5%9C%B0%E5%9B%BE/"/>
+    
+    <category term="方格地图吧" scheme="https://txmu.gitee.io/tags/%E6%96%B9%E6%A0%BC%E5%9C%B0%E5%9B%BE%E5%90%A7/"/>
+    
+    <category term="p社" scheme="https://txmu.gitee.io/tags/p%E7%A4%BE/"/>
+    
+    <category term="e社" scheme="https://txmu.gitee.io/tags/e%E7%A4%BE/"/>
+    
+    <category term="eu4" scheme="https://txmu.gitee.io/tags/eu4/"/>
+    
+    <category term="scp" scheme="https://txmu.gitee.io/tags/scp/"/>
+    
+    <category term="邵帝" scheme="https://txmu.gitee.io/tags/%E9%82%B5%E5%B8%9D/"/>
+    
+    <category term="wincerham" scheme="https://txmu.gitee.io/tags/wincerham/"/>
+    
+    <category term="sigaide" scheme="https://txmu.gitee.io/tags/sigaide/"/>
+    
+    <category term="sws lnc." scheme="https://txmu.gitee.io/tags/sws-lnc/"/>
+    
+    <category term="邵帝块图" scheme="https://txmu.gitee.io/tags/%E9%82%B5%E5%B8%9D%E5%9D%97%E5%9B%BE/"/>
+    
+    <category term="4399" scheme="https://txmu.gitee.io/tags/4399/"/>
+    
+  </entry>
   
   <entry>
     <title>未root的安卓手机使用hexo+gitee搭建博客（1）</title>
