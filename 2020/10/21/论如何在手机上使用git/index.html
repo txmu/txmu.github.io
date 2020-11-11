@@ -429,14 +429,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-10-22
+                    2020-11-11
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    342
+                    338
                 </div>
                 
 
@@ -461,27 +461,38 @@
                 <p><strong>准备工具:安卓手机一台(安卓7.0以上)，utermux</strong></p>
 <p><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1nWqcYv8Htfojos21fmIrzw#/multshare/%2FUTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%2F/%2FTermux_%E8%87%AA%E7%94%A8%E5%8C%85%2F%E5%85%A8%E9%83%A8%E6%89%A9%E5%B1%95%E5%8C%85">ut链接，提取码mjvu</a></p>
 <p>打开ut,执行以下命令:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  pkg install git</span><br></pre></td></tr></table></figure>
+<pre><code>$  pkg install git</code></pre>
 
 <p>有y/n这种提示直接选y就可以。</p>
 <p>安装完之后使用git –version检测一下。</p>
 <p>现在应该可以用git clone了，但是你可能想用手机ssh连接gitee,github和gitlab。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> $  ssh-keygen -t rsa -C youremail@youremail.com</span><br><span class="line"># 上面的命令要是生成失败就用atilo安装个debian再在debian里生成。三次回车即可生成。</span><br></pre></td></tr></table></figure>
+<pre><code> $  ssh-keygen -t rsa -C youremail@youremail.com
+# 上面的命令要是生成失败就用atilo安装个debian再在debian里生成。三次回车即可生成。</code></pre>
 
 <p>执行命令cat ~/.ssh/id_rsa.pub查看公匙。</p>
 <p>然后注册gitee,github和gitlab账号，把公匙在设置里面添加一下。</p>
 <p><strong>gitee,github和gitlab可以用一个公匙。</strong></p>
 <p>添加后，在终端输入:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"> #Gitee</span><br><span class="line"> $ ssh -T git@gitee.com</span><br><span class="line"></span><br><span class="line">#GitHub</span><br><span class="line"> $ ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">#Gitlab</span><br><span class="line"> $ ssh -T git@gitlab.com</span><br></pre></td></tr></table></figure>
+<pre><code> #Gitee
+ $ ssh -T git@gitee.com
+
+#GitHub
+ $ ssh -T git@github.com
+
+#Gitlab
+ $ ssh -T git@gitlab.com</code></pre>
 
 
 <p>再次执行上面的命令，检查是否成功连接，如果返回以下信息，则表示添加成功:You’ve successfully authenticated, but GitHub does not provide shell access.(github的,gitee也差不多，但是gitlab的不太一样)</p>
 <p> 接下来我们要设置一些信息</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line"></span><br><span class="line">$ git config --global user.email &quot;youremail@youremail.com&quot;</span><br></pre></td></tr></table></figure>
+<pre><code>$ git config --global user.name &quot;yourname&quot;
+
+$ git config --global user.email &quot;youremail@youremail.com&quot;</code></pre>
 
 <p><strong>name尽量和码云或GitHub保持一致，但email必须是码云或GitHub注册时使用的邮箱。命令不分前后，没有顺序。</strong></p>
 <p>git使用教程自己找吧，比如<a target="_blank" rel="noopener" href="https://www.cnblogs.com/yiven/p/8465054.html">https://www.cnblogs.com/yiven/p/8465054.html</a>。</p>
 <p><strong>END</strong></p>
+<script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js" async></script>
 
 
             </div>
@@ -643,13 +654,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/10/22/hello-world/">
+                <a href="/2020/10/22/%E6%9C%AAroot%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8hexo-gitee%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%881%EF%BC%89/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="庆祝建站成功">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="未root的安卓手机使用hexo+gitee搭建博客之踩坑指南">
                         
-                        <span class="card-title">庆祝建站成功</span>
+                        <span class="card-title">未root的安卓手机使用hexo+gitee搭建博客之踩坑指南</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -664,11 +675,35 @@
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            txmu(天蝎矛u)
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%99%E7%A8%8B/">
+                        <span class="chip bg-color">教程</span>
+                    </a>
+                    
+                    <a href="/tags/git/">
+                        <span class="chip bg-color">git</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/gitee/">
+                        <span class="chip bg-color">gitee</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -908,7 +943,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">861</span>&nbsp;字
+                class="white-color">655</span>&nbsp;字
             
             
             
@@ -1101,6 +1136,34 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
+    
+        <script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js"></script>
+        <script>
+            $(document).ready(function () {
+                setInterval(change_Tidio, 50);
+                function change_Tidio() {
+                    var tidio=$("#tidio-chat iframe");
+                    if(tidio.css("display")=="block"&& $(window).width()>977 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"85px":"20px";
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
+                        document.getElementById("tidio-chat-iframe").style.zIndex="998";
+                    }
+                }
+            });
+        </script>
     
 
     

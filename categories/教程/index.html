@@ -345,17 +345,18 @@
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="未root的安卓手机使用hexo+gitee搭建博客（1）">
+                            <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="未root的安卓手机使用hexo+gitee搭建博客之踩坑指南">
                             
-                            <span class="card-title">未root的安卓手机使用hexo+gitee搭建博客（1）</span>
+                            <span class="card-title">未root的安卓手机使用hexo+gitee搭建博客之踩坑指南</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                前言:由于网上已经有了很多搭建hexo的教程，这篇教程并不会详细讲搭建过程，而是主要讲一些坑。至于高级教程（如评论）会在下面的文章里讲。在阅读此文之前，您需要先读《如何在手机上使用git》
-上次，我们我们在已经在手机上成功部署好了git。
-
+                                第一个问题:css加载不出来。
+解决方案:换我用的这个主题。
+第二个问题:写好的markdown文件hexo g时出错
+解决方案:如果在最后提示权限错误，应该是yaml语法加载错误的问题。hexo g时一直盯着，如果出现yaml语法错误，会
                             
                         </div>
                         <div class="publish-info">
@@ -416,11 +417,11 @@
                                 准备工具:安卓手机一台(安卓7.0以上)，utermux
 ut链接，提取码mjvu
 打开ut,执行以下命令:
-1$  pkg install git
+$  pkg install git
 
 有y/n这种提示直接选y就可以。
 安装完之后使用git –version检测一下。
-现在
+现在应
                             
                         </div>
                         <div class="publish-info">
@@ -475,7 +476,7 @@ ut链接，提取码mjvu
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">861</span>&nbsp;字
+                class="white-color">655</span>&nbsp;字
             
             
             
@@ -668,6 +669,34 @@ $(function () {
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
+    
+        <script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js"></script>
+        <script>
+            $(document).ready(function () {
+                setInterval(change_Tidio, 50);
+                function change_Tidio() {
+                    var tidio=$("#tidio-chat iframe");
+                    if(tidio.css("display")=="block"&& $(window).width()>977 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" &&$(window).width()>977)>0? "-40px" : ($("div.toc-title").length&&$(window).width()>977)>0?"85px":"20px";
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.height=parseInt(tidio.css("height"))>=520?"520px":tidio.css("height");
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()>601 &&$(window).width()<992 ){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && 601< $(window).width()<992)>0? "-40px":"20px" ;
+                        document.getElementById("tidio-chat-iframe").style.right="-15px";
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
+                        document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;
+                        document.getElementById("tidio-chat-iframe").style.zIndex="997";
+                    }
+                    if( tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))>=230){
+                        document.getElementById("tidio-chat-iframe").style.zIndex="998";
+                    }
+                }
+            });
+        </script>
     
 
     

@@ -6,7 +6,7 @@
   <link href="https://txmu.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://txmu.gitee.io/"/>
-  <updated>2020-11-03T04:44:30.007Z</updated>
+  <updated>2020-11-11T04:39:33.910Z</updated>
   <id>https://txmu.gitee.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>庆祝建站成功</title>
+    <link href="https://txmu.gitee.io/2020/11/11/hello-world/"/>
+    <id>https://txmu.gitee.io/2020/11/11/hello-world/</id>
+    <published>2020-11-11T04:39:33.910Z</published>
+    <updated>2020-11-11T04:39:33.910Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>FAQ:</strong></p><p>Q:RSS订阅怎么用?</p><p>A:<a href="https://zhuanlan.zhihu.com/p/64457116">参考链接</a></p><script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js" async></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;FAQ:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Q:RSS订阅怎么用?&lt;/p&gt;
+&lt;p&gt;A:&lt;a href=&quot;https://zhuanlan.zhihu.com/p/64457116&quot;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&quot;//code.tidio.</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>方块地图的基本玩法（1）</title>
     <link href="https://txmu.gitee.io/2020/11/02/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%8E%A9%E6%B3%95%EF%BC%881%EF%BC%89/"/>
     <id>https://txmu.gitee.io/2020/11/02/%E6%96%B9%E5%9D%97%E5%9C%B0%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%8E%A9%E6%B3%95%EF%BC%881%EF%BC%89/</id>
     <published>2020-11-02T11:16:15.000Z</published>
-    <updated>2020-11-03T04:44:30.007Z</updated>
+    <updated>2020-11-11T04:38:52.550Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>我把方块地图吧的教程挑了几个，放在这里。在看下面的内容前，建议先把这些帖子看完</strong></p><p><a href="http://tieba.baidu.com/p/6761182162?share=9105&fr=share&sfc=copy&client_type=2&client_version=11.5.8.3&st=1592661418&unique=E1FF05FC85F543E302AA81143C640454">附城念:方块地图快速入门</a></p><p>摘录:“新人到达这里会很迷茫，因为他们不知道这里的玩法，附城经过总结，给出诸位三句话。<br>1，多争地，加经济。<br>2，核心在争地上，其余的规则都是附庸。<br>3，会争地，爆经济，看规矩，测自己。”</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>我把方块地图吧的教程挑了几个，放在这里。在看下面的内容前，建议先把这些帖子看完</strong></p><p><a href="http://tieba.baidu.com/p/6761182162?share=9105&fr=share&sfc=copy&client_type=2&client_version=11.5.8.3&st=1592661418&unique=E1FF05FC85F543E302AA81143C640454">附城念:方块地图快速入门</a></p><p>摘录:“新人到达这里会很迷茫，因为他们不知道这里的玩法，附城经过总结，给出诸位三句话。<br>1，多争地，加经济。<br>2，核心在争地上，其余的规则都是附庸。<br>3，会争地，爆经济，看规矩，测自己。”</p><script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js" async></script>]]></content>
     
     
       
@@ -80,19 +103,21 @@
   </entry>
   
   <entry>
-    <title>未root的安卓手机使用hexo+gitee搭建博客（1）</title>
+    <title>未root的安卓手机使用hexo+gitee搭建博客之踩坑指南</title>
     <link href="https://txmu.gitee.io/2020/10/22/%E6%9C%AAroot%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8hexo-gitee%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%881%EF%BC%89/"/>
     <id>https://txmu.gitee.io/2020/10/22/%E6%9C%AAroot%E7%9A%84%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E4%BD%BF%E7%94%A8hexo-gitee%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%881%EF%BC%89/</id>
     <published>2020-10-22T11:39:58.000Z</published>
-    <updated>2020-10-23T12:13:06.673Z</updated>
+    <updated>2020-11-11T04:39:17.080Z</updated>
     
-    <content type="html"><![CDATA[<p><em>前言:由于网上已经有了很多搭建hexo的教程，这篇教程并不会详细讲搭建过程，而是主要讲一些坑。至于高级教程（如评论）会在下面的文章里讲。在阅读此文之前，您需要先读《如何在手机上使用git》</em></p><p><strong>上次，我们我们在已经在手机上成功部署好了git。</strong></p><p><strong>现在让我们来在手机上使用hexo。</strong></p><p><strong>基础教程请参考hexo文档，以下简单整理一下。</strong></p><p>首先咱得用apt安装最新的node.js，不说了。</p><p>然后执行<em>npm install -g hexo-cli</em>，安装完整的hexo。</p><p><a href="https://hexo.io/zh-cn/docs/setup">之后的内容请参考本链接，这篇文章主要讲的是我踩过的坑，下面的文章会讲一些进阶玩法，例如评论</a></p><p>第一个问题:css加载不出来。</p><p>解决方案:换我用的这个主题。</p><p>第二个问题:写好的markdown文件hexo g时出错</p><p>解决方案:如果在最后提示权限错误，应该是yaml语法加载错误的问题。hexo g时一直盯着，如果出现yaml语法错误，会有提示出现在那个markdown文件的哪里（所有yml文件和front-matter的冒号后面必须空一格）。</p><p>第三个问题:用git提交博客文件后部署速度慢，甚至一直转圈。</p><p>解决方案:安装hexo部署插件，然后hexo d</p><p>第四个问题:使用hexo d提交后，有时候部署时一直转圈。</p><p>解决方案:待会再试。</p>]]></content>
+    <content type="html"><![CDATA[<p>第一个问题:css加载不出来。</p><p>解决方案:换我用的这个主题。</p><p>第二个问题:写好的markdown文件hexo g时出错</p><p>解决方案:如果在最后提示权限错误，应该是yaml语法加载错误的问题。hexo g时一直盯着，如果出现yaml语法错误，会有提示出现在那个markdown文件的哪里（所有yml文件和front-matter的冒号后面必须空一格）。</p><p>第三个问题:用git提交博客文件后部署速度慢，甚至一直转圈。</p><p>解决方案:安装hexo部署插件，然后hexo d</p><p>第四个问题:使用hexo d提交后，有时候部署时一直转圈。</p><p>解决方案:待会再试。</p><script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js" async></script>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;em&gt;前言:由于网上已经有了很多搭建hexo的教程，这篇教程并不会详细讲搭建过程，而是主要讲一些坑。至于高级教程（如评论）会在下面的文章里讲。在阅读此文之前，您需要先读《如何在手机上使用git》&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;上次，我们我们在已经在手机上成功部署</summary>
+    <summary type="html">&lt;p&gt;第一个问题:css加载不出来。&lt;/p&gt;
+&lt;p&gt;解决方案:换我用的这个主题。&lt;/p&gt;
+&lt;p&gt;第二个问题:写好的markdown文件hexo g时出错&lt;/p&gt;
+&lt;p&gt;解决方案:如果在最后提示权限错误，应该是yaml语法加载错误的问题。hexo g时一直盯着，如果出现yaml语法</summary>
       
     
     
@@ -111,36 +136,13 @@
   </entry>
   
   <entry>
-    <title>庆祝建站成功</title>
-    <link href="https://txmu.gitee.io/2020/10/22/hello-world/"/>
-    <id>https://txmu.gitee.io/2020/10/22/hello-world/</id>
-    <published>2020-10-22T09:40:01.268Z</published>
-    <updated>2020-10-22T09:40:01.268Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>FAQ:</strong></p><p>Q:RSS订阅怎么用?</p><p>A:<a href="https://zhuanlan.zhihu.com/p/64457116">参考链接</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;FAQ:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Q:RSS订阅怎么用?&lt;/p&gt;
-&lt;p&gt;A:&lt;a href=&quot;https://zhuanlan.zhihu.com/p/64457116&quot;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>如何在手机上使用git</title>
     <link href="https://txmu.gitee.io/2020/10/21/%E8%AE%BA%E5%A6%82%E4%BD%95%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E4%BD%BF%E7%94%A8git/"/>
     <id>https://txmu.gitee.io/2020/10/21/%E8%AE%BA%E5%A6%82%E4%BD%95%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E4%BD%BF%E7%94%A8git/</id>
     <published>2020-10-21T14:33:24.000Z</published>
-    <updated>2020-10-22T09:40:12.998Z</updated>
+    <updated>2020-11-11T04:39:27.850Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>准备工具:安卓手机一台(安卓7.0以上)，utermux</strong></p><p><a href="https://pan.baidu.com/s/1nWqcYv8Htfojos21fmIrzw#/multshare/%2FUTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%2F/%2FTermux_%E8%87%AA%E7%94%A8%E5%8C%85%2F%E5%85%A8%E9%83%A8%E6%89%A9%E5%B1%95%E5%8C%85">ut链接，提取码mjvu</a></p><p>打开ut,执行以下命令:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  pkg install git</span><br></pre></td></tr></table></figure><p>有y/n这种提示直接选y就可以。</p><p>安装完之后使用git –version检测一下。</p><p>现在应该可以用git clone了，但是你可能想用手机ssh连接gitee,github和gitlab。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> $  ssh-keygen -t rsa -C youremail@youremail.com</span><br><span class="line"># 上面的命令要是生成失败就用atilo安装个debian再在debian里生成。三次回车即可生成。</span><br></pre></td></tr></table></figure><p>执行命令cat ~/.ssh/id_rsa.pub查看公匙。</p><p>然后注册gitee,github和gitlab账号，把公匙在设置里面添加一下。</p><p><strong>gitee,github和gitlab可以用一个公匙。</strong></p><p>添加后，在终端输入:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"> #Gitee</span><br><span class="line"> $ ssh -T git@gitee.com</span><br><span class="line"></span><br><span class="line">#GitHub</span><br><span class="line"> $ ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">#Gitlab</span><br><span class="line"> $ ssh -T git@gitlab.com</span><br></pre></td></tr></table></figure><p>再次执行上面的命令，检查是否成功连接，如果返回以下信息，则表示添加成功:You’ve successfully authenticated, but GitHub does not provide shell access.(github的,gitee也差不多，但是gitlab的不太一样)</p><p> 接下来我们要设置一些信息</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;yourname&quot;</span><br><span class="line"></span><br><span class="line">$ git config --global user.email &quot;youremail@youremail.com&quot;</span><br></pre></td></tr></table></figure><p><strong>name尽量和码云或GitHub保持一致，但email必须是码云或GitHub注册时使用的邮箱。命令不分前后，没有顺序。</strong></p><p>git使用教程自己找吧，比如<a href="https://www.cnblogs.com/yiven/p/8465054.html">https://www.cnblogs.com/yiven/p/8465054.html</a>。</p><p><strong>END</strong></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>准备工具:安卓手机一台(安卓7.0以上)，utermux</strong></p><p><a href="https://pan.baidu.com/s/1nWqcYv8Htfojos21fmIrzw#/multshare/%2FUTermux%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC%2F/%2FTermux_%E8%87%AA%E7%94%A8%E5%8C%85%2F%E5%85%A8%E9%83%A8%E6%89%A9%E5%B1%95%E5%8C%85">ut链接，提取码mjvu</a></p><p>打开ut,执行以下命令:</p><pre><code>$  pkg install git</code></pre><p>有y/n这种提示直接选y就可以。</p><p>安装完之后使用git –version检测一下。</p><p>现在应该可以用git clone了，但是你可能想用手机ssh连接gitee,github和gitlab。</p><pre><code> $  ssh-keygen -t rsa -C youremail@youremail.com# 上面的命令要是生成失败就用atilo安装个debian再在debian里生成。三次回车即可生成。</code></pre><p>执行命令cat ~/.ssh/id_rsa.pub查看公匙。</p><p>然后注册gitee,github和gitlab账号，把公匙在设置里面添加一下。</p><p><strong>gitee,github和gitlab可以用一个公匙。</strong></p><p>添加后，在终端输入:</p><pre><code> #Gitee $ ssh -T git@gitee.com#GitHub $ ssh -T git@github.com#Gitlab $ ssh -T git@gitlab.com</code></pre><p>再次执行上面的命令，检查是否成功连接，如果返回以下信息，则表示添加成功:You’ve successfully authenticated, but GitHub does not provide shell access.(github的,gitee也差不多，但是gitlab的不太一样)</p><p> 接下来我们要设置一些信息</p><pre><code>$ git config --global user.name &quot;yourname&quot;$ git config --global user.email &quot;youremail@youremail.com&quot;</code></pre><p><strong>name尽量和码云或GitHub保持一致，但email必须是码云或GitHub注册时使用的邮箱。命令不分前后，没有顺序。</strong></p><p>git使用教程自己找吧，比如<a href="https://www.cnblogs.com/yiven/p/8465054.html">https://www.cnblogs.com/yiven/p/8465054.html</a>。</p><p><strong>END</strong></p><script src="//code.tidio.co/tcbmof3wizogepbhstb7xipuem2342ls.js" async></script>]]></content>
     
     
       
