@@ -460,7 +460,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://txmu.gitee.io" rel="external nofollow noreferrer">txmu(天蝎矛u)</a>
+                    <a href="https://txmu.gitee.io" rel="external nofollow noreferrer">天蝎矛u</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -483,7 +483,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="https://txmu.gitee.io" target="_blank">txmu(天蝎矛u)</a>
+                    <a href="https://txmu.gitee.io" target="_blank">天蝎矛u</a>
                     !
                 </span>
             </div>
@@ -566,7 +566,7 @@
         el: '#mvcomments',
         appId: 'mlaQQkOrUoPtscRUtQO1TwhE-MdYXbMMI',
         appKey: 'VHSs9ak5YckipGmNzNEtBWc7',
-        mode: 'DesertsP',
+        mode: 'xCss',
         placeholder: 'Write a Comment',
         pathname: window.location.pathname,
         lang: '',
@@ -593,18 +593,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/11/11/hello-world/">
+                <a href="/2020/11/12/%E6%9C%AAroot%E7%9A%84%E6%89%8B%E6%9C%BA%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E5%B9%B6%E4%BD%BF%E7%94%A8minivaline%E8%AF%84%E8%AE%BA%E5%92%8C%E4%B8%8D%E8%92%9C%E5%AD%90%E7%BB%9F%E8%AE%A1%E5%86%8D%E4%B8%89%E9%87%8D%E9%83%A8%E7%BD%B2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="庆祝建站成功">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="未root的手机免费搭建hexo博客并使用评论和说说">
                         
-                        <span class="card-title">庆祝建站成功</span>
+                        <span class="card-title">未root的手机免费搭建hexo博客并使用评论和说说</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -614,18 +613,45 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-11
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-12
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            txmu(天蝎矛u)
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/git/">
+                        <span class="chip bg-color">git</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/gitee/">
+                        <span class="chip bg-color">gitee</span>
+                    </a>
+                    
+                    <a href="/tags/github/">
+                        <span class="chip bg-color">github</span>
+                    </a>
+                    
+                    <a href="/tags/leancloud/">
+                        <span class="chip bg-color">leancloud</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -789,7 +815,7 @@
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
             + '来源: 天蝎小屋<br />'
-            + '文章作者: txmu(天蝎矛u)<br />'
+            + '文章作者: 天蝎矛u<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
             + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
 
@@ -848,7 +874,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
             collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
+            headingSelector: 'h1, h2, h3, h4, h5, h6'
         });
 
         // modify the toc link href to support Chinese.
@@ -860,7 +886,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
         // modify the heading title id to support Chinese.
         i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
+        $('#articleContent').children('h1, h2, h3, h4, h5, h6').each(function () {
             $(this).attr('id', tocHeading + (++i));
         });
 
@@ -929,13 +955,13 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="/about" target="_blank">txmu(天蝎矛u)</a>
+            <a href="/about" target="_blank">天蝎矛u</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">655</span>&nbsp;字
+                class="white-color">14.8k</span>&nbsp;字
             
             
             
