@@ -1,6 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
-<script>
-    this.location = "txmu.unaux.com" ;
-</script>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站访问重定向 - Umami统计集成</title>
+    <!-- Umami 统计分析脚本 - 必须在根页面执行 -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="0a3ec395-5346-4f0d-9144-631459149fb5"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            width: 100%;
+            animation: fadeIn 0.8s ease-out;
+            color: #333;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            color: #1a2980;
+            margin-bottom: 15px;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #26d0ce;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        .info-box {
+            background-color: #f0f9ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 5px solid #1a2980;
+            text-align: left;
+        }
+        
+        .info-box h3 {
+            color: #1a2980;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .info-box h3::before {
+            content: "📊";
+        }
+        
+        .umami-highlight {
+            background-color: #e8f4fc;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+            border: 1px dashed #1a2980;
+        }
+        
+        .path-display {
+            font-family: 'Consolas', 'Monaco', monospace;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 12px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 15px 0;
+            font-size: 1.2rem;
+            word-break: break-all;
+        }
+        
+        .loader-container {
+            margin: 30px 0;
+        }
+        
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #26d0ce;
+            border-radius: 50%;
+            animation: spin 1.5s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .countdown {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #e74c3c;
+            margin: 20px 0;
+        }
+        
+        .redirect-note {
+            background-color: #fff8e1;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 25px 0;
+            color: #8a6d3b;
+            font-size: 0.95rem;
+            border-left: 4px solid #ffc107;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(26, 41, 128, 0.3);
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(26, 41, 128, 0.4);
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+        }
+        
+        .visitor-count {
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .path-display {
+                font-size: 1rem;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>网站访问重定向</h1>
+        <div class="subtitle">Umami统计集成系统</div>
+        
+        <div class="info-box">
+            <h3>统计代码执行中</h3>
+            <p>为确保网站访问数据被准确统计，所有访问请求都需要经过本页面执行Umami统计脚本。</p>
+            <div class="umami-highlight">
+                <p><strong>Umami统计ID:</strong> 0a3ec395-5346-4f0d-9144-631459149fb5</p>
+                <p><strong>状态:</strong> <span id="umamiStatus">正在加载统计脚本...</span></p>
+            </div>
+        </div>
+        
+        <p>您即将被重定向到目标页面：</p>
+        <div class="path-display" id="targetPath">/gp-simanager/index.html</div>
+        
+        <div class="redirect-note">
+            <p><strong>注意：</strong>此重定向机制确保Umami统计能正确记录所有访问，无论用户直接访问哪个URL。</p>
+        </div>
+        
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+        
+        <div class="countdown" id="countdown">5秒后自动跳转</div>
+        
+        <div>
+            <button class="btn" id="manualRedirect">立即跳转</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2023 网站管理系统 | 访问统计由Umami提供 | 当前访问者<span class="visitor-count" id="visitorCount">--</span></p>
+    </div>
+
+    <script>
+        // 配置参数
+        const TARGET_URL = "/gp-simanager/index.html";
+        const REDIRECT_DELAY = 3000; // 3秒后跳转（确保Umami有足够时间加载）
+        const FALLBACK_DELAY = 5000; // 备用跳转时间（5秒）
+        
+        // 获取当前访问路径
+        const currentPath = window.location.pathname;
+        const urlParams = new URLSearchParams(window.location.search);
+        const originalTarget = urlParams.get('target') || TARGET_URL;
+        
+        // 更新显示的目标路径
+        document.getElementById('targetPath').textContent = originalTarget;
+        
+        let countdown = REDIRECT_DELAY / 1000;
+        let countdownInterval;
+        let umamiLoaded = false;
+        
+        // 检查Umami是否加载成功
+        function checkUmamiLoaded() {
+            if (window.umami && typeof window.umami.trackView === 'function') {
+                umamiLoaded = true;
+                document.getElementById('umamiStatus').textContent = '统计脚本已加载';
+                document.getElementById('umamiStatus').style.color = '#27ae60';
+                
+                // 记录当前页面访问
+                try {
+                    umami.trackView(currentPath, "https://" + window.location.hostname);
+                } catch (e) {
+                    console.log("Umami trackView error:", e);
+                }
+            } else {
+                setTimeout(checkUmamiLoaded, 500);
+            }
+        }
+        
+        // 启动Umami检查
+        setTimeout(checkUmamiLoaded, 1000);
+        
+        // 执行重定向函数
+        function performRedirect() {
+            // 清除倒计时
+            if (countdownInterval) clearInterval(countdownInterval);
+            
+            // 显示跳转状态
+            document.getElementById('countdown').textContent = "正在跳转...";
+            document.getElementById('countdown').style.color = "#27ae60";
+            
+            // 添加一个小的延迟，确保Umami有足够时间发送数据
+            setTimeout(() => {
+                window.location.href = originalTarget;
+            }, 300);
+        }
+        
+        // 设置倒计时
+        function startCountdown() {
+            const countdownElement = document.getElementById('countdown');
+            countdownElement.textContent = `${countdown}秒后自动跳转`;
+            
+            countdownInterval = setInterval(() => {
+                countdown--;
+                if (countdown <= 0) {
+                    performRedirect();
+                } else {
+                    countdownElement.textContent = `${countdown}秒后自动跳转`;
+                }
+            }, 1000);
+        }
+        
+        // 页面加载完成后开始倒计时
+        window.addEventListener('load', function() {
+            // 等待一小段时间确保Umami开始加载
+            setTimeout(() => {
+                startCountdown();
+                
+                // 备用重定向机制（确保即使Umami加载有问题也能跳转）
+                setTimeout(performRedirect, FALLBACK_DELAY);
+            }, 1000);
+        });
+        
+        // 为手动跳转按钮添加事件
+        document.getElementById('manualRedirect').addEventListener('click', performRedirect);
+        
+        // 如果用户直接访问了目标页面，也重定向回根页面
+        // 这可以防止用户绕过统计
+        if (currentPath === TARGET_URL || currentPath === '/gp-simanager/') {
+            // 重定向到根页面并传递目标参数
+            window.location.href = "/?target=" + encodeURIComponent(TARGET_URL);
+        }
+        
+        
+        // 初始更新和定时更新
+        updateVisitorCount();
+        setInterval(updateVisitorCount, 10000);
+    </script>
+</body>
 </html>
